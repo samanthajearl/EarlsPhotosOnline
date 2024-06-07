@@ -1,0 +1,95 @@
+.banner-container{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner-image{
+    height: auto;
+    width: 100%;
+    margin: auto;
+    vertical-align: middle;
+}
+.banner-elem{
+    flex-shrink: 1;
+    padding: 0px 5px 0px 5px;
+    margin: auto;
+
+}
+.display-flex{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.about-elem{
+    max-width: 100%;
+    display: flex;
+    margin: 30px;
+    flex-direction: column;
+}
+.about-photo{
+    max-height: 450px;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+.margin-top-80{
+    margin-top: 80px;
+}
+.margin-top-20{
+    margin-top: 20px;
+}
+.link{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color:black;
+    text-decoration: underline;
+}
+.introduction{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.introduction-text{
+    width: 80%;
+    padding: 60px;
+}
+@media only screen and (max-width: 1500px){
+    .introduction{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .desktop-only{
+        display: none;
+    }
+    .mobile-column{
+        flex-direction: column;
+    }
+    .banner-container{
+        width: 100%;
+    }
+    .banner-image{
+        width: 100%;
+        height: auto;
+    }
+    .banner-elem{
+        padding: 0px;
+    }
+    .about-elem{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .intro-image{
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    .introduction-text{
+        padding: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

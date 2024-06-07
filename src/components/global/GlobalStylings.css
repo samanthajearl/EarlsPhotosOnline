@@ -1,0 +1,25 @@
+/* Background colors */
+.background-off-white{
+    background-color: #F0ECE1;
+}
+.background-rust{
+    background-color: #C0A06F;
+}
+.background-earthy-red{
+    background-color: #AE8E7F;
+}
+.background-slate{
+    background-color: #95978A;
+}
+/* Font stylings */
+.font-white{
+    color: white;
+}
+.font-bold{
+    font-weight: bold;
+}
+
+/*Paddings*/
+.nav-bar-padding{
+    padding-top: 120px;
+}
