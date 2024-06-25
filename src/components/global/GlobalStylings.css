@@ -19,7 +19,12 @@
     font-weight: bold;
 }
 
-/*Paddings*/
+/* Paddings */
 .nav-bar-padding{
     padding-top: 120px;
+}
+
+/* Widths */
+.w-80{
+    width: 80%;
 }

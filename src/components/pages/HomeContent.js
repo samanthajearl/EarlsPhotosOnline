@@ -1,37 +1,14 @@
 import React, { PureComponent} from 'react';
 import { Outlet, Link } from "react-router-dom";
-import {Slide} from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import './HomeContent.css';
 import '../global/GlobalStylings.css';
-const responsiveSettings = [
-    {
-        breakpoint: 800,
-        settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3
-        }
-    },
-    {
-        breakpoint: 500,
-        settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2
-        }
-    }
-];
+
 export default class HomeContent extends PureComponent{
     render(){
         
         return(
             <div class="nav-bar-padding">
-                {/* <div>
-                    <Slide slidesToScroll={3} slidesToShow={2} indicators={true} responsive={responsiveSettings}>
-                            <img src="/photos/home/flower.jpg" alt="Becker's Flower" />
-                            <img src="/photos/home/gc.jpg" alt="Grand Canyon" />
-                            <img src="/photos/home/greer_birds.jpg" alt="Greer Birds" />
-                    </Slide>
-                </div> */}
                 <div class = "banner-container display-flex">
                     <div class = "desktop-only banner-elem" style = {{flex : 0.666}}>
                         <img class = "banner-image" src="/photos/home/flower.jpg" alt="Becker's Flower" />
