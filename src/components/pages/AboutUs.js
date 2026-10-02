@@ -7,11 +7,11 @@ export default class AboutUs extends PureComponent {
         return (
             <div>
                 <NavBar />
-                <div class='w-100 mx-auto nav-bar-padding'>
-                    <h1 class='about-us-title'>About Us</h1>
+                <div className='w-100 mx-auto nav-bar-padding'>
+                    <h1 className='about-us-title'>About Us</h1>
                 </div>
                 {/* ---------------Fely-------------- */}
-                <div class='d-flex w-80 mx-auto justify-content-around'>
+                <div className='d-flex w-80 mx-auto justify-content-around'>
                     <div>
                         <img src="/photos/about-us/young-fely.jpg" alt="Young Fely" />
                     </div>
@@ -20,7 +20,7 @@ export default class AboutUs extends PureComponent {
                     </div>
                 </div>
                 {/* ---------------Jerry-------------- */}
-                <div class='d-flex w-80 mx-auto'>
+                <div className='d-flex w-80 mx-auto'>
                     <div>
                         <img src="/photos/about-us/young-jerry.jpg" alt="Young Jerry" />
                     </div>
