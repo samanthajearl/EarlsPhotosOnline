@@ -6,7 +6,7 @@ export default class Fely extends PureComponent{
         return(
             <div>
                 <NavBar />
-                <div class='nav-bar-padding'>
+                <div className='nav-bar-padding'>
                     <h1>Fely</h1>
                 </div>
             </div>

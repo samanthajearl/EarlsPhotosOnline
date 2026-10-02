@@ -5,7 +5,7 @@ export default class Jerry extends PureComponent{
         return(
             <div>
                 <NavBar />
-                <div class='nav-bar-padding'>
+                <div className='nav-bar-padding'>
                     <h1>Jerry</h1>
                 </div>
             </div>
